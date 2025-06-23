@@ -1,0 +1,95 @@
+ body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      display: flex;
+      height: 100vh;
+    }
+
+    .left {
+      flex: 1;
+      background-size: cover;
+      background-position: center;
+      width: 50%;
+    }
+    .left img{
+        width: 100%;
+    }
+
+    .right {
+      flex: 1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: #fff;
+    }
+
+    .form-container {
+      width: 80%;
+      max-width: 400px;
+    }
+
+    h1 {
+      font-size: 24px;
+      margin-bottom: 0.25em;
+    }
+
+    .subtitle {
+      color: #666;
+      margin-bottom: 1em;
+    }
+
+    .subtitle a {
+      color: #6b46c1;
+      text-decoration: none;
+    }
+
+    label {
+      font-size: 14px;
+      margin-top: 1em;
+      display: block;
+    }
+
+    input, select, textarea {
+      width: 100%;
+      padding: 10px;
+      margin-top: 4px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+
+    textarea {
+      height: 80px;
+    }
+
+    .services {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 0.5em 1em;
+      margin-top: 1em;
+    }
+
+    .services label {
+      display: flex;
+      align-items: center;
+      font-size: 14px;
+    }
+
+    .services input {
+      margin-right: 8px;
+    }
+
+    button {
+      width: 100%;
+      margin-top: 1.5em;
+      background-color: #6b46c1;
+      color: white;
+      border: none;
+      padding: 12px;
+      border-radius: 5px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #5936a3;
+    }
